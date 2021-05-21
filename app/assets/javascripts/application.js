@@ -17,7 +17,7 @@
 //= require ckeditor/plugins/eqneditor/lang/en
 //= require ckeditor/plugins/eqneditor/dialogs/eqneditor
 //= require ckeditor/plugins/textmatch/plugin
-//= require ckeditor/plugins/embedsemantic/plugin
+//= require ckeditor/plugins/embed/plugin
 //= require ckeditor/plugins/autoembed/plugin
 
 //= require rails-ujs

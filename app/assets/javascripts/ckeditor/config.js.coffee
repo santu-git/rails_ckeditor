@@ -28,9 +28,9 @@ CKEDITOR.editorConfig = (config) ->
   config.allowedContent = true
   config.enterMode = CKEDITOR.ENTER_BR;
 
-  config.extraPlugins = 'eqneditor,autoembed,textmatch,embedsemantic,embedbase';
-
-
+  config.extraPlugins = 'eqneditor,autoembed,textmatch,embedbase,embed';
+  # config.autoEmbed_widget = 'customEmbed';
+  config.embed_provider = '//ckeditor.iframe.ly/api/oembed?url={url}&callback={callback}'
 
 
   # Toolbar groups configuration.
@@ -77,7 +77,7 @@ CKEDITOR.editorConfig = (config) ->
         'SpecialChar'
         'Blockquote'
         'EqnEditor'
-        'embedsemantic'
+        'MediaEmbed'
       ]
     }
 
